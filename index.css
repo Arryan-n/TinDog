@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 31.25rem;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+}
+.icons > img {
+  width: 44px;
+  height: 32px;
+}
+.image-container {
+  width: 500px;
+  height: 701px;
+  background-size: cover;
+  border-radius: 15px;
+  position: relative;
+}
+.dogs-intro {
+  position: absolute;
+  top: 600px;
+  left: 20px;
+  color: white;
+  font-size: 1.2rem;
+}
+.like-section {
+  display: flex;
+  width: 500px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f7fb;
+}
+.like-section > img {
+  margin-left: 35px;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.crossimgdiv > img {
+  margin-top: 80px;
+  margin-left: 40px;
+  width: 250px;
+  transform: rotate(-30deg);
+  height: 150px;
+}
+
+.endMessage {
+  /* margin-top: 45%;
+  margin-left: 30%; */
+  text-align: center;
+  margin-top: 50%;
+}
+.endMessage > button {
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+.endMessage > p {
+  font-size: 2rem;
+}
